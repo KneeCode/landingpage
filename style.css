@@ -142,8 +142,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 800px;
-    padding-right: 800px;
+    padding-left: 700px;
+    padding-right: 700px;
     gap: 30px;
 }
 
@@ -159,4 +159,59 @@ button {
     margin-left: 400px;
     font-weight: bold;
 
+}
+
+/* cta (call to action) part */
+
+.cta {
+    min-height: 339px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctabox {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 140px;
+    padding-right: 140px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    gap: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.ctatext {
+    color:#f9faf8;
+    
+
+}
+
+.ctatextprt1 {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.ctatextprt2 {
+    font-size: 20px;
+    
+}
+
+.button2 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.link2 {
+    color: #f9faf8;
 }
